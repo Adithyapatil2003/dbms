@@ -74,7 +74,7 @@ grid-template-rows: 85vh 15vh;
   height: 100%;
   width: 100%;
   background: linear-gradient(transparent, rgba(0, 0, 0, 1));
-  background-color: rgb(32, 87, 100);
+  background-color: rgb(32, 197, 100);
   .body {
     height: 100%;
     width: 100%;

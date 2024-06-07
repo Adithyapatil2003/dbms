@@ -99,7 +99,7 @@ const Container = styled.div`
 `;
 const PlaylistsBox = styled.div`
   position: fixed  ;
-  background-color: #ffffff;
+  background-color: black;
   border: 1px solid #cccccc;
   padding: 10px;
   border-radius: 5px;

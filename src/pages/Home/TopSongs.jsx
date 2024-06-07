@@ -147,7 +147,7 @@ export default function TopSongs( { headerBackground }) {
     };
   return (
     <Container>
-        <h2>Currently Popular</h2>
+        <h2> Currently Popular </h2>
         
           <div className="list">
             <div className="header-row">
@@ -294,7 +294,7 @@ const Container = styled.div`
       display: grid;
       grid-template-columns: 0.3fr 4fr 2fr 3fr 0.5fr;
       &:hover {
-        background-color: rgba(0, 0, 0, 0.7);
+        background-color: rgba(100, 100, 200, 0.7);
       }
       .col {
         display: flex;
@@ -329,7 +329,7 @@ const Container = styled.div`
 `;  
 const PlaylistsBox = styled.div`
   position: fixed  ;
-  background-color: #ffffff;
+  background-color: black;
   border: 1px solid #cccccc;
   padding: 10px;
   border-radius: 5px;

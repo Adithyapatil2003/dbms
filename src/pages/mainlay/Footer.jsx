@@ -22,6 +22,7 @@ const Container = styled.div`
   height: 100%;
   width: 100%;
   background-color: #181818;
+  color:green;
   border-top: 1px solid #282828;
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
