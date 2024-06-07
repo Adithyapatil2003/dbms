@@ -1,13 +1,48 @@
 # Songs Database
 This application is a comprehensive software system designed to manage and organize vast music collections. It features secure user authentication, detailed song catalog management, search and filtering, playlist CRUD, and integrated audio playback. This application is accessible via responsive web design. Technologically it leverages React for the frontend, Flask for the backend, and MariaDB for the database. This enables efficient song management, discovery, and an enhanced listening experience.
 
-![Screenshot 1](dbms/login.png.png")
+
+# Login
+<img width="738" alt="login png" src="https://github.com/Adithyapatil2003/dbms/assets/117760549/a984e20f-a3fb-4901-b0f0-92027ef5d895">
+
+# Home
+<img width="738" alt="Home" src="https://github.com/Adithyapatil2003/dbms/assets/117760549/c38714a5-6d18-4533-9281-f544aa8fc61e">
+
+# Playlist
+<img width="738" alt="Playlist" src="https://github.com/Adithyapatil2003/dbms/assets/117760549/8661e854-617e-49fc-a72e-6ee988346500">
+
+# Search
+<img width="738" alt="Search" src="https://github.com/Adithyapatil2003/dbms/assets/117760549/950f37fc-3d6e-4ac3-914b-63067d9c48c4">
+
+
+# 
+
+
+-   We've used MariaDB for this application, to download the latest version visit(https://mariadb.org/download/) or any other equivalent SQL database should work.
+  -   Import the already created db(dummy.sql) using HeidiSQL(GUI for MariaDB)
+  -   Or if you want to create the database from scratch, follow these steps
+        - Create a spotify app here(https://developer.spotify.com/documentation/web-api) and paste the client-id and client-secret in client-id.txt and client-secret.txt
+        - Run auth.py once this fills out our spotify access token which we use to insert metadata into our database.
+        - Modify the artists.txt as you wish depending on whose info you need in your database.
+        - Run serv.py also modify the connector config to your db's config
+        - Now our metadata is inserted, now to make those songs playable we insert the yt links of those songs and embed them into our app.
+        - Run yt.js
+        - Now our database setup is complete.
+
+## Modify the connector config in backend/app/__init__.py
+### Run the run.py file
+
+  ### git clone https://github.com/360smchandan/dbms.git
+
+ ### cd dbms
 
 ## Available Scripts
 
 In the project directory, you can run:
-
+### `npm install`
 ### `npm start`
+
+Congrats you have successfully setup the app!!!
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
@@ -40,32 +75,4 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
