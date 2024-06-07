@@ -1,7 +1,7 @@
 # Songs Database
 This application is a comprehensive software system designed to manage and organize vast music collections. It features secure user authentication, detailed song catalog management, search and filtering, playlist CRUD, and integrated audio playback. This application is accessible via responsive web design. Technologically it leverages React for the frontend, Flask for the backend, and MariaDB for the database. This enables efficient song management, discovery, and an enhanced listening experience.
 
-![Screenshot 1]("C:\Users\adith\OneDrive\Desktop\login.png")
+![Screenshot 1](dbms/login.png.png")
 
 ## Available Scripts
 
