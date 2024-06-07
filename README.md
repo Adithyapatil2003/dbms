@@ -32,7 +32,7 @@ This application is a comprehensive software system designed to manage and organ
 ## Modify the connector config in backend/app/__init__.py
 ### Run the run.py file
 
-  ### git clone https://github.com/360smchandan/dbms.git
+  ### git clone https://github.com/Adithyapatil2003/dbms.git
 
  ### cd dbms
 
